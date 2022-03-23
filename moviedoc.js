@@ -9,7 +9,7 @@ async function movies()
 let {items}=data;
 items.forEach(element => {
     let{title,rank}=element;
-    console.log("movie name is"+title+"and rank is"+rank);
+    document.write("movie name is"+title+"and rank is"+rank);
 });
  
  
