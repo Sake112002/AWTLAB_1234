@@ -6,9 +6,7 @@ function *display()
    console.log("from display function");
 }
 console.log("welcome");
-var a=display();
- 
+var a=display(); 
 console.log(a.next());
 console.log("how are you");
 console.log(a.next());
- 
